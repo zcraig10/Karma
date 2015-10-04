@@ -25,8 +25,20 @@ div {
 	float: right;
 }
 
+.top-navigation .links > .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
 .links li {
 	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+	margin-top: .5em;
+	margin-left: 1em;
+	-webkit-font-smoothing: antialiased;
 }
 
 .top-navigation li {
@@ -39,4 +51,5 @@ div {
 
 .logo {
 	border: solid 1px black;
+	margin-top: 0.5em;
 }
