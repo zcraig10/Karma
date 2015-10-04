@@ -1,0 +1,42 @@
+body {
+	background-color: LightGray;
+}
+
+div {
+	border: solid 1px Chocolate;
+}
+
+.top-navigation {
+/*	margin-left: 24.7em;
+	margin-top: .8em;*/
+	background-color: #fff;
+}
+
+.top-navigation > .content {
+	width: 970px;
+	height: 70px;
+	margin: 0 auto;
+}
+.content {
+	padding: 0px 15px;
+}
+
+.top-navigation .links {
+	float: right;
+}
+
+.links li {
+	display: inline-block;
+}
+
+.top-navigation li {
+/*	display: inline-block;
+	float: right;
+	border: solid 1px black;*/
+}
+
+
+
+.logo {
+	border: solid 1px black;
+}
