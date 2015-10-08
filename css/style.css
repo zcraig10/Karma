@@ -10,15 +10,21 @@
 /*	margin-left: 24.7em;
 	margin-top: .8em;*/
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .top-navigation > .content {
-	width: 770px;
+	
 	height: 70px;
-	margin: 0 auto;
+	
 }
 .content {
 	padding: 0px 15px;
+	box-sizing: border-box;
+	width: 800px;
+	margin: 0 auto;
 }
 
 .top-navigation .links {
@@ -64,4 +70,77 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 42em;
+}
+
+.intro h1 {
+	border: solid 1px black;
+	margin-top: 0;
+	padding-top: 8em;
+}
+
+.intro h1, .intro h3 {
+	color: white;
+	text-align: center;
+	font-weight: 300;
+}
+
+.big-button {
+	display: block;
+	margin-left: 17em; /*margin 0 auto and display block don't work*/
+	text-shadow: none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	line-height: 1.33;
+	width: 9.688rem;
+	background-color: #f15a29;
+	color: white;
+	border-color: #f15a29;
+	font-size: 1.125rem;
+}
+
+.big-button:hover {
+	background-color: #d9400e;
+	border-color: #d9400e;
+	cursor: pointer;	
+}
+
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem; /*where is the space between the words and the image coming from?*/
+	/*padding: 2em;*/  /*padding-top moves the text left*/
+	font-weight: 300;
+	border: solid 1px black;
+	text-align: center;
+}
+
+/*.cases .devices {      WWWHHHHHAAAATTT?!?!?
+	width: 33.3333333%;
+	display: inline-block;*/    
+	/*style to assist with debugging*/
+	/*border: solid 1px black;
+	box-sizing: border-box;
+	height: 4em;
+}*/
+
+ul {
+	list-style: none;
+}
+
+.cases .devices > li {   /*show .cases .devices and comment this out*/
+	width: 33.3333333%;
+	float: left;  /*why use float left instead of display inline-block?*/
+	text-align: center;
+}
+
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
 }
