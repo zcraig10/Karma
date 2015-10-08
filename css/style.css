@@ -101,3 +101,43 @@
 	border-color: #d9400e;
 	cursor: pointer;	
 }
+
+.cases {
+	background-color: #fff;
+	overflow: hidden;
+	padding-bottom: 5rem;
+}
+
+.cases h2 {
+	font-size: 2.75rem;
+	margin: 1.625rem 0 3.125rem; /*where is the space between the words and the image coming from?*/
+	/*padding: 2em;*/  /*padding-top moves the text left*/
+	font-weight: 300;
+	border: solid 1px black;
+	text-align: center;
+}
+
+/*.cases .devices {      WWWHHHHHAAAATTT?!?!?
+	width: 33.3333333%;
+	display: inline-block;*/    
+	/*style to assist with debugging*/
+	/*border: solid 1px black;
+	box-sizing: border-box;
+	height: 4em;
+}*/
+
+ul {
+	list-style: none;
+}
+
+.cases .devices > li {   /*show .cases .devices and comment this out*/
+	width: 33.3333333%;
+	float: left;  /*why use float left instead of display inline-block?*/
+	text-align: center;
+}
+
+.cases .devices h3 {
+	font-weight: 400;
+	font-size: 1.563rem;
+	margin: 2.5rem 0px 1.875rem;
+}
