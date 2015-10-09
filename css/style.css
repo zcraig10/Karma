@@ -18,24 +18,31 @@
 
 .top-navigation > .content {
 	
-	height: 70px;
+	height: 4.375rem;
 	
 }
 
 .content {
 	padding: 0px 0.938rem;
 	min-width: 37.5rem;
-	margin: 0 auto;
+	margin: 0 17em;
 }
 
-.logo {
-	/*border: solid 1px black;*/
+.top-navigation .logo {
+	height: 4.375rem;
+}
+
+/*.logo {
 	margin-top: 1em;
 	margin-left: -.7em;
-}
+}*/
 
 .top-navigation .links {
 	float: right;
+	color: #838994;
+	font-size: 1.04rem;
+	margin-top: 1.7rem;
+	margin-bottom: 0;
 }
 
 ul {
@@ -87,6 +94,7 @@ ul {
 	color: white;
 	text-align: center;
 	font-weight: 300;
+	margin-bottom: 0;
 }
 
 .intro h3 {
