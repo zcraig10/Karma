@@ -13,6 +13,7 @@
 	position: fixed;
 	width: 100%;
 	z-index: 9999;
+	border-bottom: 1px solid #DDD;
 }
 
 .top-navigation > .content {
@@ -20,15 +21,28 @@
 	height: 70px;
 	
 }
+
 .content {
 	padding: 0px 15px;
 	box-sizing: border-box;
 	width: 800px;
 	margin: 0 auto;
+	text-align: center;
+}
+
+.logo {
+	/*border: solid 1px black;*/
+	margin-top: 1em;
+	margin-left: -.7em;
 }
 
 .top-navigation .links {
 	float: right;
+}
+
+
+ul {
+	list-style: none;
 }
 
 .top-navigation .links > .active {
@@ -58,24 +72,17 @@
 	border: solid 1px black;*/
 }
 
-.logo {
-	/*border: solid 1px black;*/
-	margin-top: 1em;
-	margin-left: -.7em;
-}
-
 .intro {
 	background-image: url('../images/karma-background.jpg');
 	background-position: center bottom;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 42em;
+	height: 45.938rem;
+	overflow: auto;
 }
 
 .intro h1 {
-	border: solid 1px black;
-	margin-top: 0;
-	padding-top: 8em;
+	margin-top: 17.5rem
 }
 
 .intro h1, .intro h3 {
@@ -84,14 +91,22 @@
 	font-weight: 300;
 }
 
-.big-button {
-	display: block;
-	margin-left: 17em; /*margin 0 auto and display block don't work*/
+.intro h3 {
+	margin-top: 1.25rem;
+	font-size: 1.563rem;
+}
+
+.intro .buttons {
+	color: white;
+	text-align: center;
+	margin-top: 1.563rem;
+}
+
+button {
 	text-shadow: none;
 	border-style: none;
 	border-radius: 4px;
 	padding: 1rem 1.5rem;
-	line-height: 1.33;
 	width: 9.688rem;
 	background-color: #f15a29;
 	color: white;
@@ -116,8 +131,12 @@
 	margin: 1.625rem 0 3.125rem; /*where is the space between the words and the image coming from?*/
 	/*padding: 2em;*/  /*padding-top moves the text left*/
 	font-weight: 300;
-	border: solid 1px black;
+}
+
+.cases .content {
+	margin-top: 7.875rem;
 	text-align: center;
+	color: #1d1e21;
 }
 
 /*.cases .devices {      WWWHHHHHAAAATTT?!?!?
@@ -129,14 +148,10 @@
 	height: 4em;
 }*/
 
-ul {
-	list-style: none;
-}
 
 .cases .devices > li {   /*show .cases .devices and comment this out*/
 	width: 33.3333333%;
 	float: left;  /*why use float left instead of display inline-block?*/
-	text-align: center;
 }
 
 .cases .devices h3 {
