@@ -166,8 +166,13 @@ button {
 	margin: 2.5rem 0px 1.875rem;
 }
 
-.social hr {
-	border: 0;
-	border-top: 1px solid #eaebec;
-	margin: 1.313rem 0;
+.social {
+	background-color: rgb(255,255,255);
+	overflow: auto;
+	padding-bottom: 9.375em;
+	text-align: center;
+}
+
+.icons li {
+	border-radius: 1.25rem
 }
