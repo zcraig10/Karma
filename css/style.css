@@ -17,9 +17,7 @@
 }
 
 .top-navigation > .content {
-	
 	height: 4.375rem;
-	
 }
 
 .content {
@@ -41,7 +39,7 @@
 	float: right;
 	color: #838994;
 	font-size: 1.04rem;
-	margin-top: 1.7rem;
+	margin-top: 1rem;
 	margin-bottom: 0;
 }
 
@@ -208,5 +206,4 @@ button {
 	font-size: 0.9rem;
 	font-weight: 300;
 	color: #838994;
-	text-align: center;
 }
