@@ -118,7 +118,7 @@ button {
 	font-size: 1.125rem;
 }
 
-.big-button:hover {
+button:hover {
 	background-color: #d9400e;
 	border-color: #d9400e;
 	cursor: pointer;	
